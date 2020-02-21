@@ -1,0 +1,28 @@
+''''###Exercise 1
+###Character Input
+
+name = input("Enter your name : ")
+age = int(input("Enter your Age : "))
+calYr = str((2020-age)+ 100)
+
+print(name ," you will turn 100 on ",calYr, " that year.")
+''''
+
+###Exercise 2
+###Odd OR Even
+
+num = int(input("give me a number to check: "))
+check = int(input("give me a number to divide by: "))
+
+if num % 4 == 0:
+    print(num, "is a multiple of 4")
+elif num % 2 == 0:
+    print(num, "is an even number")
+else:
+    print(num, "is an odd numbe
+
+if num % check == 0:
+    print(num, "divides evenly by", check)
+else:
+    print(num, "does not divide evenly by", check)
+
